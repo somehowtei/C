@@ -12,6 +12,17 @@ printf("This shows a specific number: %d with text", n);
 ```
 scanf("%d", &n);
 ```
-<!--se observa ca la scanf se adauga pointer-->
 
-##
+
+
+## Array
+### Array Traversal
+
+```
+int v[n];
+scanf("%d", &n);
+for (int i=0; i<=n; i++)
+{
+    scanf("%d", &v[i]);
+}
+```
