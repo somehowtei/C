@@ -53,3 +53,58 @@ for (int i=0; i<=n; i++)
     scanf("%d", &v[i]);
 }
 ```
+### Deleting/Inserting in Arrays
+Deleting:
+```
+for(int i=x; i<n-1; i++)
+{
+    a[i]=a[i+1];
+}
+n--;
+```
+x defines the index of an element
+
+Inserting:
+```
+for(int i=n-1; i>=x; i--)
+{
+    a[i+1]=a[i];
+}
+a[x]=8;
+n++;
+```
+a[x]= is the value we insert 
+
+### Sorting 
+#### Bubble Sort
+This is one of the least efficient sorting algorithm
+```
+int v[100];
+int n;
+scanf("%d", &n)
+bool sorted=false;
+for(int i=0; i<n; i++)
+{
+    scanf("%d", &v[i]);
+}
+do
+{
+    sorted=true;
+    for(int i=0; i<n-1; i++)
+    {
+        if(v[i+1]<v[i]
+        {
+            
+        }
+    }
+
+}
+
+
+
+
+
+```
+
+
+
