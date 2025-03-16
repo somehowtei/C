@@ -1,4 +1,4 @@
-# C Algorithms
+# C Language
 ## Descriptors
 
 ![1_vZyQaiaCyLCedBdiYeYxfg](https://github.com/user-attachments/assets/bb345a8f-968b-4377-904f-c6a0bf5e25d2)
@@ -177,6 +177,33 @@ do
 for(int i=0; i<n; i++)
 {
     printf("%d", &v[i]);
+}
+return 0;
+```
+#### Insertion sort
+```
+int v[100];
+int n;
+scanf("%d", &n)
+for(int i=0; i<n; i++)
+{
+    scanf("%d", &v[i]);
+}
+for(int i=0; i<n; i++)
+{
+    for(int j=i+1; j<n; j++)
+    {
+        if(v[i]>v[j])
+        {
+            v[i]=v[i]^v[j];
+            v[j]=v[i]^v[j];
+            v[i]=v[i]^v[j];
+        }
+    }
+}
+for(int i=0; i<n; i++)
+{
+    printf("%d", v[i]);
 }
 return 0;
 ```
