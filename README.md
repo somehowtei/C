@@ -150,7 +150,6 @@ a[x]= is the value we insert
 
 ### Sorting 
 #### Bubble Sort
-This is one of the least efficient sorting algorithm
 ```
 int v[100];
 int n;
