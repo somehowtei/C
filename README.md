@@ -59,7 +59,7 @@ fprintf(fout, "d", n);
 Closing the files:
 ```
 fclose(fin);
-flose(fout);
+fclose(fout);
 ```
 ## Algorithms
 ### Prime numbers
