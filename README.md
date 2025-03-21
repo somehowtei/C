@@ -42,6 +42,25 @@ printf("This shows a specific number: %d with text", n);
 ```
 scanf("%d", &n);
 ```
+## Files
+```
+FILE *fin, *fout;
+```
+Opening files input and output:
+```
+fin=fopen("input.txt", "r");
+fout=fopen("output.txt", "w");
+```
+Using fscanf and fprintf instead of scanf and printf:
+```
+fscanf (fin, "d", &n);
+fprintf(fout, "d", n);
+```
+Closing the files:
+```
+fclose(fin);
+flose(fout);
+```
 ## Algorithms
 ### Prime numbers
 For 1 number:
