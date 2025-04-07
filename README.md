@@ -70,10 +70,13 @@ Quick sort function
 ```
 void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void *));
 ```
-> base = the adress of the first array(ex:v)
-> nitems = the number of elements 
-> size = the size of an element(ex:sizeof(int)
-> compar = function that compares 2 elements 
+> * base = the adress of the first array(ex:v)
+> 
+> * nitems = the number of elements
+> 
+> * size = the size of an element(ex:sizeof(int)
+> 
+> * compar = function that compares 2 elements 
 
 Example:
 ```
@@ -98,9 +101,11 @@ int main()
     return 0;
 }
 ```
-> const void* a = the adress of an array
-> (int*)a = converting to int
-> * (int*)a = dereferencing: accesing the value stored at that adress
+> * const void* a = the adress of an array
+> 
+> * (int*)a = converting to int
+> 
+> * steluța(int*)a = dereferencing: accesing the value stored at that adress
 ### Math.h
 
 ### string.h
@@ -219,7 +224,7 @@ for(int i=x; i<n-1; i++)
 }
 n--;
 ```
-x defines the index of an element
+> x defines the index of an element
 
 Inserting:
 ```
@@ -230,7 +235,7 @@ for(int i=n-1; i>=x; i--)
 a[x]=8;
 n++;
 ```
-a[x]= is the value we insert 
+> a[x]= is the value we insert 
 
 ### Sorting 
 #### Bubble Sort
