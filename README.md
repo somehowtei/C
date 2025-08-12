@@ -108,7 +108,7 @@ int main()
 > * steluța(int*)a = dereferencing: accesing the value stored at that adress
 ### Math.h
 
-### string.h
+### String.h
 
 ## Algorithms
 ### Fibonacci
