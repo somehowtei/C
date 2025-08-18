@@ -16,19 +16,35 @@ unsigned int a;
 scanf("%u", &a);
 ```
 ### Float(%f)
-
+```
+float a;
+scanf("%f", &a);
+```
 ### Specific Notation(%e or %E)
+```
 
+```
 ### Unsigned Hexazecimal Integer(%x or %X)
+```
 
+```
 ### Characters(%c)
-
+```
+char a;
+scanf("%c", &a);
+```
 ### String of Characters(%s)
+```
 
+```
 ### Octal(%o)
+```
 
+```
 ### Pointer(%p)
+```
 
+```
 ## Write/Read
 ### Write(method number 1):
 ```
