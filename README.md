@@ -1,5 +1,18 @@
 # C Language
-## Descriptors
+## Write/Read
+### Write(method number 1):
+```
+printf("%d", n);
+```
+### Write(method number 2):
+```
+printf("This shows a specific number: %d with text", n);
+```
+### Read:
+```
+scanf("%d", &n);
+```
+## Data Types
 
 ![1_vZyQaiaCyLCedBdiYeYxfg](https://github.com/user-attachments/assets/bb345a8f-968b-4377-904f-c6a0bf5e25d2)
 
@@ -44,19 +57,6 @@ scanf("%c", &a);
 ### Pointer(%p)
 ```
 
-```
-## Write/Read
-### Write(method number 1):
-```
-printf("%d", n);
-```
-### Write(method number 2):
-```
-printf("This shows a specific number: %d with text", n);
-```
-### Read:
-```
-scanf("%d", &n);
 ```
 ## Files
 ```
