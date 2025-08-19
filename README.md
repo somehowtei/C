@@ -35,8 +35,18 @@ scanf("%f", &a);
 ```
 ### Characters(%c)
 ```
-char a;
-scanf("%c", &a);
+char a='A';
+printf("%c", a);
+```
+or
+```
+char a=65;
+printf("%c",a);
+```
+### String(%s)
+```
+char text[]="Hello";
+printf("%s", text);
 ```
 ## Files
 ```
