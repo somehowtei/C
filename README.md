@@ -28,41 +28,15 @@ Integer defines a whole number
 int a;
 scanf("%d", &a);
 ```
-### Unsigned Integer(%u)
-Used to print unsigned decimal integers
-```
-unsigned int a;
-scanf("%u", &a);
-```
 ### Float(%f)
 ```
 float a;
 scanf("%f", &a);
 ```
-### Specific Notation(%e or %E)
-```
-
-```
-### Unsigned Hexazecimal Integer(%x or %X)
-```
-
-```
 ### Characters(%c)
 ```
 char a;
 scanf("%c", &a);
-```
-### String of Characters(%s)
-```
-
-```
-### Octal(%o)
-```
-
-```
-### Pointer(%p)
-```
-
 ```
 ## Files
 ```
