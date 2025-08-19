@@ -21,7 +21,10 @@ scanf("%d", &n);
 ## Data Types
 
 ![1_vZyQaiaCyLCedBdiYeYxfg](https://github.com/user-attachments/assets/bb345a8f-968b-4377-904f-c6a0bf5e25d2)
-
+```
+35e3= 35*10^3
+35E4=35*10^4
+```
 ### Integer( %d or %i)
 Integer defines a whole number
 ```
@@ -29,9 +32,22 @@ int a;
 scanf("%d", &a);
 ```
 ### Float(%f)
+can store 7 decimal digits
 ```
 float a;
 scanf("%f", &a);
+```
+```
+float a=2.4;
+printf("%f", a); // only show 6 digits
+printf("%.2f", a) // only show 2 digits
+printf("%.4f", a) // only show 4 digits
+```
+### Double(%lf)
+can store 15 decimal digits
+```
+double a;
+scanf("%lf", &a);
 ```
 ### Characters(%c)
 ```
