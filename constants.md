@@ -1,14 +1,16 @@
+Is considered good practice to declare them with uppercase.
+
 The only correct form
 ```
-const int a=100; 
+const int NUMBER=100; 
 ```
 Wrong forms
 ```
-const int a=100;
-a=50;
+const int NUMBER=100;
+NUMBER=50;
 ```
 or
 ```
-const int a;
-a=100;
+const int NUMBER;
+NUMBER=100;
 ```
