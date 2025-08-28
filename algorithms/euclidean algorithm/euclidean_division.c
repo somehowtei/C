@@ -12,3 +12,4 @@ int main()
     }
         printf("%d", n);
 }
+// if return is 1 it means gcd is 1
