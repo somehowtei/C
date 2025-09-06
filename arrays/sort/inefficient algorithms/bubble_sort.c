@@ -19,7 +19,7 @@ do
             sorted=false;
         }
     }
-}while(!sorted);
+}while(!sorted); // while sorted=false
 for(int i=0; i<n; i++)
 {
     printf("%d", &v[i]);
