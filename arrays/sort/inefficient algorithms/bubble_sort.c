@@ -24,4 +24,3 @@ for(int i=0; i<n; i++)
 {
     printf("%d", &v[i]);
 }
-return 0;
