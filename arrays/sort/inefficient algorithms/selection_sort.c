@@ -1,4 +1,4 @@
-int v[100];
+int v[1000];
 int n;
 scanf("%d", &n)
 for(int i=0; i<n; i++)
@@ -21,4 +21,3 @@ for(int i=0; i<n; i++)
 {
     printf("%d", v[i]);
 }
-return 0;
