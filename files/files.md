@@ -8,8 +8,8 @@ fout=fopen("output.txt", "w");
 ```
 Using fscanf and fprintf instead of scanf and printf:
 ```
-fscanf (fin, "d", &n);
-fprintf(fout, "d", n);
+fscanf (fin, "%d", &n);
+fprintf(fout, "%d", n);
 ```
 Closing the files:
 ```
