@@ -15,4 +15,6 @@ Closing the files:
 ```
 fclose(fin);
 fclose(fout);
+return 0;
 ```
+
