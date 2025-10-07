@@ -1,7 +1,7 @@
 int fact(int n){
     int r;
     if(n == 0)
-        r = 1;
+        return 1;
     else
         r = n * fact(n - 1);
     return r;
